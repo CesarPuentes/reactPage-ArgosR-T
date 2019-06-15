@@ -1,0 +1,335 @@
+#Contactanos{
+    background-color: #032356;
+}
+.section-title p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 20px 100px 60px 100px;
+    color:white;
+}
+
+.section-title h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    color:white;
+}
+
+.contactoH3{
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+    color:white;
+}
+
+.contactoP{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color:white;
+}
+
+
+.telcorreo{
+    padding-left: 150px;
+}
+
+
+
+/*Collapse Contact info*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    #Contactanos{
+        background-color: #032356;
+    }
+    
+    #contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 50px;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #032356;
+        
+    }
+
+    .section-title p {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 25px;
+        margin: auto auto 60px auto;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-title h2 {
+        font-size: 48px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoH3{
+        font-size: 42px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoP{
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        color: white;
+    }
+
+    #contactForm{
+        text-align: center;
+       
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    #contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 50px;
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0px;
+        background-color: #032356;
+        
+    }
+
+    .section-title p {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 25px;
+        margin: auto auto 60px auto;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-title h2 {
+        font-size: 48px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoH3{
+        font-size: 42px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoP{
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        color: white;
+    }
+
+    #contactForm{
+        text-align: center;
+       
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    #contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 50px;
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0px;
+        background-color: #032356;
+        
+    }
+
+    .section-title p {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 25px;
+        margin: auto auto 60px auto;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-title h2 {
+        font-size: 48px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoH3{
+        font-size: 42px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoP{
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        color: white;
+    }
+
+    #contactForm{
+        text-align: center;
+       
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    #contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 50px;
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0px;
+        background-color: #032356;
+    }
+
+    .section-title p {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 25px;
+        margin: auto auto 60px auto;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-title h2 {
+        font-size: 48px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoH3{
+        font-size: 42px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoP{
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .telcorreo{
+        padding-top: 20px;
+        padding-left: 30px;
+        color: white;
+    }
+    
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    #contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 50px;
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0px;
+        background-color: #032356;
+    }
+
+    .section-title p {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 25px;
+        margin: auto auto 60px auto;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-title h2 {
+        font-size: 48px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoH3{
+        font-size: 42px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    
+    .contactoP{
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .telcorreo{
+        padding-top: 20px;
+        padding-left: 30px;
+        color: white;
+    }
+    
+    
+  }
+
+
+  /*FORMULARIO*/
+
+
+  
+label{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 200px;
+}
+textarea{
+    width: 200px;
+    height: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .contactAlign{
+        margin-left: 20%
+    }
+      
+    
+  }

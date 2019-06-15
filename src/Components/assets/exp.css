@@ -1,0 +1,334 @@
+
+.countdown_wrapper {
+    position:absolute;
+    bottom: 0px;
+    color:#ffffff;
+}
+
+.countdown_wrapper .countdown_top {
+    background: #ff4800;
+    font-size: 19px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.countdown_wrapper .countdown_bottom {
+    display: flex;
+    background: #d93d00;
+    padding: 10px 20px;
+}
+
+.countdown_wrapper .countdown_time {
+    font-size: 70px;
+    border-right: 1px solid #F44336;
+    margin-right: 14px;
+    padding-right: 49px;
+}
+.countdown_wrapper .countdown_item:last-child .countdown_time{
+    border:none;
+}
+
+.countdown_wrapper .countdown_tag {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 7px;
+}
+
+.center_wrapper {
+    width: 900px;
+    margin:0 auto;
+}
+
+.discount_wrapper {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin-left: -1vw;
+    margin-bottom: 30px;
+
+}
+
+
+.discount_wrapper .discount_porcentage {
+    padding-right: 100px;
+}
+
+.discount_wrapper .discount_porcentage span:nth-child(1) {
+    color: #ff4800;
+    font-size: 125px;
+    font-weight: 400;
+    display: block;
+    line-height: 120px;
+}
+
+.discount_wrapper .discount_porcentage span:nth-child(2) {
+    color: #2c2c2c;
+    font-size: 50px;
+    font-weight: 400;
+    display: block;
+}
+
+
+.discount_wrapper .discount_description h3 {
+    font-size: 34px;
+    font-weight: 100;
+    margin: 0px;
+    color: #2c2c2c;
+}
+
+.discount_wrapper .discount_description p { 
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.discount_wrapper .discount_porcentage {
+    padding-right: 100px;
+}
+
+.discount_wrapper .discount_porcentage span:nth-child(1) {
+    color: #ff4800;
+    font-size: 125px;
+    font-weight: 400;
+    display: block;
+    line-height: 120px;
+}
+
+.discount_wrapper .discount_porcentage span:nth-child(2) {
+    color: #2c2c2c;
+    font-size: 50px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+
+
+.discount_wrapper .discount_description h3 {
+    font-size: 34px;
+    font-weight: 100;
+    margin: 0px;
+    color: #2c2c2c;
+    text-align: center
+}
+
+.discount_wrapper .discount_description p { 
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.tenemos{
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.centerNumber{
+    text-align: center;
+    
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .discount_wrapper {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        margin-left: -1vw;
+        margin-bottom: 30px;
+
+    }
+
+    .centerNumber{
+        text-align: center;
+    }
+
+    .discount_wrapper .discount_porcentage {
+         text-align: center;
+    }
+
+    .discount_wrapper .discount_description h3 {
+        font-size: 34px;
+        font-weight: 100;
+        margin: 0px;
+        color: #2c2c2c;
+        text-align: center;
+    }
+    
+    .discount_wrapper .discount_description p { 
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    
+  }
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+    
+    .center_wrapper {
+        width: 100vw;
+        margin:0 auto;
+    }
+
+    .discount_wrapper {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        margin-bottom: 30px;
+       
+    }
+
+    .centerNumber{
+        text-align: center;
+    }
+
+    .discount_wrapper .discount_porcentage {
+         text-align: center;
+    }
+
+    .discount_wrapper .discount_description h3 {
+        font-size: 34px;
+        font-weight: 100;
+        margin: 0px;
+        color: #2c2c2c;
+        text-align: center;
+    }
+    
+    .discount_wrapper .discount_description p { 
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .center_wrapper {
+        width: 100vw;
+        margin:0 auto;
+    }
+    .discount_wrapper {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        width: 100vw;
+        margin-left: 0vw;
+        margin-bottom: 30px;
+     }
+
+    .centerNumber{
+        text-align: center;
+        
+    }
+
+    .discount_wrapper .discount_porcentage {
+         text-align: center;
+         
+    }
+
+    .discount_wrapper .discount_description h3 {
+        font-size: 34px;
+        font-weight: 100;
+        margin: 0px;
+        color: #2c2c2c;
+        text-align: center;
+        
+    }
+    
+    .discount_wrapper .discount_description p { 
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .center_wrapper {
+        width: 100vw;
+        margin:0 auto;
+    }
+    
+    .discount_wrapper {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        width: 100vw;
+        margin-bottom: 30px;
+
+     }
+     
+
+    .centerNumber{
+        text-align: center;
+
+        
+    }
+
+    .discount_wrapper .discount_porcentage {
+         text-align: center;
+         margin-left: 12vw;
+         
+    }
+
+    .discount_wrapper .discount_description h3 {
+        font-size: 34px;
+        font-weight: 100;
+        margin: 0px;
+        color: #2c2c2c;
+        text-align: center;
+        
+    }
+    
+    .discount_wrapper .discount_description p { 
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        
+    }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    .discount_wrapper {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        width: 100vw;
+     }
+
+    .centerNumber{
+        text-align: center;
+        
+    }
+
+    .discount_wrapper .discount_porcentage {
+         text-align: center;
+         
+    }
+
+    .discount_wrapper .discount_description h3 {
+        font-size: 34px;
+        font-weight: 100;
+        margin: 0px;
+        color: #2c2c2c;
+        text-align: center;
+        
+    }
+    
+    .discount_wrapper .discount_description p { 
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        
+    }
+ 
+}
