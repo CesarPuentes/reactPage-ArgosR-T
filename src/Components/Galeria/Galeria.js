@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import 'normalize.css/normalize.css';
@@ -9,49 +8,53 @@ import './../assets/slider-animations.css';
 import './../assets/slider.css';
 
 /*Slider Source: https://codesandbox.io/s/p582xl40j*/
+
+
+var ReactFitText = require('react-fittext');
+  
 const content = [
 	{
 		title: 'Pruebas de poligráfo',
 		description:
-		'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
-		button: 'Read More',
-		image: 'https://i.imgur.com/ZXBtVw7.jpg',
-		user: 'Luan Gjokaj',
-		userProfile: 'https://i.imgur.com/JSW6mEk.png'
+		'Somos expertos en la realización de pruebas de polígrafo.',
+		button: 'Leer más',
+		image: require('./../assets/images/slide_one.jpg'),
+		user: 'Luan Gjokaj'
 	},
 	{
 		title: 'Visitas Domiciliarias',
 		description:
-		'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
-		button: 'Discover',
-		image: 'https://i.imgur.com/DCdBXcq.jpg',
-		user: 'Erich Behrens',
-		userProfile: 'https://i.imgur.com/0Clfnu7.png'
+		'Amplia experiencia en la realización de visitas domiciliarias.',
+		button: 'Leer más',
+		image: require('./../assets/images/slide_two.png'),
+		user: 'Erich Behrens'
 	},
 	{
 		title: 'Estudios de seguridad',
 		description:
-		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
-		button: 'Buy now',
-		image: 'https://i.imgur.com/DvmN8Hx.jpg',
-		user: 'Bruno Vizovskyy',
-		userProfile: 'https://i.imgur.com/4KeKvtH.png'
+		'Determine la confiabilidad de su candidato.',
+		button: 'Leer más',
+		image: require('./../assets/images/slide_three.jpg'),
+		user: 'Bruno Vizovskyy'
 	}
 ];
 
 const Carousel = () => (
-	<div id="Galería">
-
+	<div id="Galeria">
 		<Slider className="slider-wrapper">
 			{content.map((item, index) => (
 				<div
 					key={index}
 					className="slider-content"
-					style={{ background: `url('${item.image}') no-repeat center center` }}
+					style={{ background: `url('${item.image}') no-repeat center center`}}
 				>
 					<div className="inner">
+					<ReactFitText maxFontSize="30px">
 						<h1>{item.title}</h1>
+						</ReactFitText>
+						<ReactFitText maxFontSize="20px">
 						<p>{item.description}</p>
+						</ReactFitText>
 						<button>{item.button}</button>
 					</div>
 				</div>

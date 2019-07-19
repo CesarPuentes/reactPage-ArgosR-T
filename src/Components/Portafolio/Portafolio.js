@@ -25,8 +25,10 @@ const Portafolio = () => (
 							<img src={require('./../assets/images/portfolio-1.jpg')} alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>Pruebas de poligrafía</h2>
-								<p>Info pendiente</p>
+								<p>                'El polígrafo es una herramienta que registra los cambios neurofisiológicos que se presentan en una persona cuando esta es estimulada psicológicamente con una pregunta específicamente elaborada para poner a prueba su conocimiento sobre un acontecimiento. Lo anterior se realiza con el objetivo de detectar reacciones indicativas de engaño ante una pregunta que sea de interés para el empleador.'</p>
 								<a href="#item1" data-toggle="modal" data-target="#Modal-1">View more</a>
+								<button className="buttonStyle">Detalles</button>
+								<button className="buttonStyle">Contacto</button>
 							</figcaption>
 						</figure>
 					</div>
@@ -38,8 +40,10 @@ const Portafolio = () => (
 							<img src={require('./../assets/images/portfolio-1.jpg')} alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>Visitas domiciliarias</h2>
-								<p>Info pendiente</p>
+								<p>'La visita domiciliaria busca validar la información provista por el candidato con respecto a su sitio de vivienda, su entorno socio económico, responsabilidades familiares, entre otros.',</p>
 								<a href="#item2" data-toggle="modal" data-target="#Modal-2">View more</a>
+								<button className="buttonStyle">Detalles</button>
+								<button className="buttonStyle">Contacto</button>
 							</figcaption>
 						</figure>
 					</div>
@@ -51,8 +55,10 @@ const Portafolio = () => (
 							<img src={require('./../assets/images/portfolio-1.jpg')}alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>Estudios de seguridad</h2>
-								<p>Info pendiente</p>
+								<p>'Los estudios de seguridad son un servicio que busca determinar la confiabilidad de un candidato. Sus objetivos son: verificar la veracidad de los datos provistos por el o la candidato, verificar sus antecedentes para de esta forma determinar la confiabilidad de sus futuros empleados.'</p>
 								<a href="#item3" data-toggle="modal" data-target="#Modal-3">View more</a>
+								<button className="buttonStyle">Detalles</button>
+								<button className="buttonStyle">Contacto</button>
 							</figcaption>
 						</figure>
 					</div>

@@ -42,8 +42,8 @@ class Contacto extends Component {
 					</div>
                     <div class="row">
 					<div class="col-md-6">
-						<h3 className = "contactoH3">Nuestra dirección</h3>
-						<p className = "contactoP">Cra 32 # 25a - 47</p>
+						<h3 className = "contactoH3">Nuestras redes</h3>
+						<p className = "contactoP">En construcción</p>
 					</div>
 					<div class="col-md-6 telcorreo">
 						<h3 className = "contactoH3">Teléfonos y correo</h3>
@@ -51,8 +51,6 @@ class Contacto extends Component {
 						<p className = "contactoP"><i class="fa fa-phone"></i> 3016230973</p>
 						<p className = "contactoP"><i class="fa fa-envelope"></i> argosryt@gmail.com</p>
 					</div>
-
-	
 			</div>
 			</div>
             </div>

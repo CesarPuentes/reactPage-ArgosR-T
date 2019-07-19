@@ -43,9 +43,8 @@
 .discount_wrapper {
     display: grid;
     grid-template-rows: auto auto auto;
-    margin-left: -1vw;
+    margin-left: 2vw;
     margin-bottom: 30px;
-
 }
 
 
@@ -134,9 +133,8 @@
     .discount_wrapper {
         display: grid;
         grid-template-rows: auto auto auto;
-        margin-left: -1vw;
+        margin-left: 1vw;
         margin-bottom: 30px;
-
     }
 
     .centerNumber{
@@ -217,7 +215,7 @@
         display: grid;
         grid-template-rows: auto auto auto;
         width: 100vw;
-        margin-left: 0vw;
+        margin-left: 1vw;
         margin-bottom: 30px;
      }
 
