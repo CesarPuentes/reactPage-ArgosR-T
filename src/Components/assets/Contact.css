@@ -38,6 +38,10 @@
 }
 
 
+.fieldSize{
+    width: 60vw;
+}
+
 
 /*Collapse Contact info*/
 
@@ -298,6 +302,12 @@
         padding-left: 30px;
         color: white;
     }
+
+    .fieldSize{
+        width: 60vw;
+        margin-left: -8vw
+    }
+    
     
     
   }

@@ -3,7 +3,7 @@ import Discount from './Discount';
 
 const Exp = () => {
     return (
-        <div className="highlight_wrapper">
+        <div id="Experiencia" className="highlight_wrapper">
             <Discount/>
         </div>
     );

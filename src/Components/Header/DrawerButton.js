@@ -88,7 +88,7 @@ const useStyles = makeStyles({
         onKeyDown={toggleDrawer(side, false)}
       >
         <List >
-          {['Inicio', 'Galería', 'Portafolio', 'Experiencia', 'Contactanos'].map((text, index) => (
+          {['Inicio', 'Nosotros', 'Experiencia', 'Portafolio', 'Contactanos'].map((text, index) => (
             <ListItem button key={text} color="inherit">
               <ListItemIcon >{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
               <Link href={"#" + text} color="inherit">

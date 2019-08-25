@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import MenuIcon from '@material-ui/icons/Menu';
-import IconButton from '@material-ui/core/IconButton';
+
+import Button from '@material-ui/core/Button';
 
 import DrawerButton from './DrawerButton';
 
 import './../assets/navbar.css';
 
+import HeaderButton from './HeaderButton'
+
 
 //Snippets: https://codepen.io/rsvogel/pen/zxNgjR; MOOZ Themes / www.MOOZthemes.com
 
 //Snippets: https://codepen.io/rsvogel/pen/zxNgjR
+
 
 
 class Header extends Component {
@@ -37,13 +38,11 @@ class Header extends Component {
        }
     }
 
-
     toggleDrawer = (value) => {
         this.setState({
             drawerOpen: value
         })
     }
-
 
     render() {
         const {classes} = this.props
@@ -53,20 +52,12 @@ class Header extends Component {
             <nav>
                     <ul>
                     <img src={require('./../assets/images/Logo.png')} className="logoImg"/>
-                        <a href="#Inicio"><li>Inicio</li></a>
-                        <a href="#Galería"><li>Galería</li></a>
-                        <a href="#Portafolio"><li>Portafolio</li></a>
-                        <a href="#Experiencia"><li>Experiencia</li></a>
-                        <a href="#Contactanos"><li>Contactanos</li></a>
+                    <HeaderButton/>
                     </ul>
                     <div class="handle">
 
                     <DrawerButton />
 
-                          <div></div>
-                          <div></div>
-                          <div></div>
-                    
                     </div>
                 </nav>
             </div>

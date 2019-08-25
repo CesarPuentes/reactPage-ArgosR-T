@@ -42,17 +42,17 @@ class Formulario extends Component {
 		 <div >
 		  <label htmlFor="username">Tu nombre: </label>
 		  <br/>
-		  <input id="username" name="name" type="text" />
+		  <input className="fieldSize" id="username" name="name" type="text" />
 		  </div>
 		 <div >
 		  <label htmlFor="email">Tu correo: </label>
 		  <br/>
-		  <input id="email" name="email" type="email" />
+		  <input className="fieldSize" id="email" name="email" type="email" />
 		  </div>
 		  <div >
 		  <label htmlFor="message">Tu consulta: </label>
 		  <br/>
-		  <textarea id="message" name="message" type="text"></textarea>
+		  <textarea className="fieldSize" id="message" name="message" type="text"></textarea>
 		  </div>
 		  <br/>
 		  <button>Enviar!</button>
